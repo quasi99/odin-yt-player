@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Odin YouTube Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+    <!-- navbar section -->
+    <nav class="navbar has-shadow is-white">
+      <!-- logo / brand -->
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <img src="https://bulma.io/images/placeholders/64x64.png" alt="youtube logo" style="max-height: 70px" class="py-2">
+        </a>
+
+        <a class="navbar-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
+      <div class="navbar-item">
+        <div class="control">
+          <input class="text-area">    
+        </div>
+      </div>
+
+      <div class="navbar-menu" id="nav-links">
+        <div class="navbar-end">
+          <a class="navbar-item">Log in</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- content section -->
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-9">
+
+            <!-- video controls -->
+            <iframe width="760" height="415" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <div class="columns">
+              <p class="column is-8">
+                Video title
+              </p>
+              <p class="column is-1">
+                likes
+              </p>
+              <p class="column is-1">
+                unlikes
+              </p>
+            </div>
+            
+            <!-- chanel controls -->   
+            <div class="columns">  
+              <img src="https://bulma.io/images/placeholders/64x64.png" alt="img-canal" class="column is-1">
+              <p class="column is-8">
+                Chanel
+              </p>
+              <p class="column is-2">
+                Subscribe
+              </p>
+            </div>
+          </div>
+
+          <!--recomentations videos-->
+          <div class="column is-3">
+            <div class="columns">  
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt="video" class="column">
+              <p class="column">example</p>
+            </div>
+
+            <div class="columns">  
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt="video" class="column">
+              <p class="column">example</p>
+            </div>
+
+            <div class="columns">  
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt="video" class="column">
+              <p class="column">example</p>
+            </div>
+
+            <div class="columns">  
+              <img src="https://bulma.io/images/placeholders/128x128.png" alt="video" class="column">
+              <p class="column">example</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <section class="section">
+      <div class="columns">
+        <div class="column">
+          <div>
+            comments
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
